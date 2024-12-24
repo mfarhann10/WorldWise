@@ -1,12 +1,12 @@
 import PageNav from "../components/navbar/PageNav";
 
-function Product() {
+function Homepage() {
   return (
     <div className="text-center">
       <PageNav />
-      <h1>Product</h1>
+      <h1>homepage</h1>
     </div>
   );
 }
 
-export default Product;
+export default Homepage;
