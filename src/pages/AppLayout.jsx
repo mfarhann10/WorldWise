@@ -3,7 +3,8 @@ import AppNav from "../components/navbar/AppNav";
 function AppLayout() {
   return (
     <div>
-      App <AppNav />
+      <AppNav />
+      <p>app</p>
     </div>
   );
 }
