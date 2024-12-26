@@ -8,18 +8,16 @@ import Login from "./pages/Login";
 
 function App() {
   return (
-    <div className="">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Homepages />} />
-          <Route path="product" element={<Product />} />
-          <Route path="pricing" element={<Pricing />} />
-          <Route path="app" element={<AppLayout />} />
-          <Route path="login" element={<Login />} />
-          <Route path="*" element={<PageNotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homepages />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="app" element={<AppLayout />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
