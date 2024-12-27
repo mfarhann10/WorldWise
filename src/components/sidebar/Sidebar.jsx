@@ -8,8 +8,10 @@ function Sidebar() {
     <div className={styles.sidebar}>
       <Logo />
 
+      {/* to display a child route*/}
       <AppNav />
 
+      {/* to display nested routes in a parents components */}
       <Outlet />
 
       <Footer />
