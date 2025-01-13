@@ -13,18 +13,18 @@ import { useEffect, useState } from "react";
 import { useCities } from "../../contexts/CitesContext";
 import { useGeolocation } from "../../hooks/useGeolocation";
 import Button from "../button/Button";
+import { useUrlPosition } from "../../hooks/useUrlPosition";
 function Map() {
   const { cities } = useCities();
   const [mapPosition, setMapPosititon] = useState([40, 0]);
-  const [searchParams] = useSearchParams();
 
   const {
     isLoading: isLoadingPosition,
     position: geolocationPosition,
     getPosition,
   } = useGeolocation();
-  const mapLat = searchParams.get("lat");
-  const mapLng = searchParams.get("lng");
+
+  const [mapLat, mapLng] = useUrlPosition();
 
   //rstore the mapLat & mapLong when the back button got clicked
   useEffect(
