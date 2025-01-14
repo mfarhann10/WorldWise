@@ -49,15 +49,15 @@
       }
     },
     {
-      "id": "4522",
-      "cityName": "Crevant",
-      "country": "France",
-      "date": "2025-01-14T10:25:30.472Z",
-      "emoji": "🇫🇷",
-      "notes": "Gooo",
+      "id": "b6b2",
+      "cityName": "Cuevas Labradas",
+      "country": "Spain",
+      "date": "2025-01-14T16:40:10.249Z",
+      "emoji": "🇪🇸",
+      "notes": "ga",
       "position": {
-        "lat": "46.45299704748291",
-        "lng": "1.928988381698367"
+        "lat": "40.48038142908172",
+        "lng": "-1.0788273883919477"
       }
     }
   ]
