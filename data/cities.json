@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,79 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "4e9b",
+      "cityName": "Pozuelo de Calatrava",
+      "country": "Spain",
+      "date": "2025-01-14T10:21:56.042Z",
+      "emoji": "🇪🇸",
+      "notes": "GELO",
+      "position": {
+        "lat": "38.87392853923632",
+        "lng": "-3.8671875000000004"
+      }
+    },
+    {
+      "id": "4522",
+      "cityName": "Crevant",
+      "country": "France",
+      "date": "2025-01-14T10:25:30.472Z",
+      "emoji": "🇫🇷",
+      "notes": "Gooo",
+      "position": {
+        "lat": "46.45299704748291",
+        "lng": "1.928988381698367"
+      }
+    },
+    {
+      "id": "3688",
+      "cityName": "Hussigny-Godbrange",
+      "country": "France",
+      "date": "2025-01-23T10:29:26.000Z",
+      "emoji": "🇫🇷",
+      "notes": "geee",
+      "position": {
+        "lat": "49.49667452747045",
+        "lng": "5.8576690848252255"
+      }
+    },
+    {
+      "id": "7338",
+      "cityName": "Gerstungen",
+      "country": "Germany",
+      "date": "2025-01-20T10:30:29.000Z",
+      "emoji": "🇩🇪",
+      "notes": "asiap",
+      "position": {
+        "lat": "50.958426723359935",
+        "lng": "10.20765301339688"
+      }
+    },
+    {
+      "id": "f8c8",
+      "cityName": "West Betuwe",
+      "country": "Netherlands (Kingdom of the)",
+      "date": "2025-01-21T10:31:34.000Z",
+      "emoji": "🇳🇱",
+      "notes": "strong",
+      "position": {
+        "lat": "51.91716758909015",
+        "lng": "5.205292098215222"
+      }
+    },
+    {
+      "id": "45a5",
+      "cityName": "Gemeente Borger-Odoorn",
+      "country": "Netherlands (Kingdom of the)",
+      "date": "2025-01-14T10:33:20.161Z",
+      "emoji": "🇳🇱",
+      "notes": "Good",
+      "position": {
+        "lat": "52.908902047770255",
+        "lng": "6.739856283484542"
+      }
     }
   ]
 }
