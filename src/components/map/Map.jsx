@@ -1,4 +1,5 @@
-import { useNavigate, useSearchParams } from "react-router-dom";
+/* eslint-disable react/prop-types */
+import { useNavigate } from "react-router-dom";
 import styles from "./Map.module.css";
 import {
   MapContainer,
@@ -14,6 +15,7 @@ import { useCities } from "../../contexts/CitesContext";
 import { useGeolocation } from "../../hooks/useGeolocation";
 import Button from "../button/Button";
 import { useUrlPosition } from "../../hooks/useUrlPosition";
+import User from "../User/User";
 function Map() {
   const { cities } = useCities();
   const [mapPosition, setMapPosititon] = useState([40, 0]);
@@ -57,6 +59,7 @@ function Map() {
         scrollWheelZoom={true}
         className={styles.map}
       >
+        <User />
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
